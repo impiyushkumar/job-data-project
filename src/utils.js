@@ -13,86 +13,61 @@ export function StripHtml(html) {
 
 // A common set of keywords we can reuse for multiple sites.
 export const COMMON_KEYWORDS =// A new, targeted filterKeywords array based on your resume
+
 [
+  // --- Roles & Titles (English) ---
+  "software engineer intern",
+  "web developer intern",
+  "full stack intern",
+  "full-stack intern",
+  "backend intern",
+  "frontend intern",
+  "react developer intern",
+  "node.js developer intern",
+  "javascript developer intern",
+  "mern stack developer",
+  "trainee software engineer",
+  "software developer trainee",
+  "apprentice software developer",
+  "working student",
+  "werkstudent", // The German word for "working student" (you had this, it's perfect)
+
+  // --- German Roles & Titles ---
+  "Praktikum", // "Internship" - A very common search term (e.g., "Praktikum Softwareentwicklung")
+  "Praktikant", // "Intern" (male or neutral term)
+  "Softwareentwickler Praktikant", // "Software Engineer Intern"
+  "Webentwickler Praktikant", // "Web Developer Intern"
+  "Frontend Entwickler Praktikant",
+  "Backend Entwickler Praktikant",
+  "Werkstudent Softwareentwicklung", // "Working Student Software Development"
+  "Werkstudent IT", // A more general "Working Student IT"
+  "Trainee", // Same word, very common for graduate programs
+  "Ausbildung", // "Apprenticeship" (a formal multi-year vocational training program)
+  "Auszubildender", // "Apprentice" (often shortened to "Azubi")
+  "Fachinformatiker Anwendungsentwicklung", // The official apprenticeship title for a software developer
+
+  // --- Core Technologies (These are the same in German) ---
+  "react",
+  "node.js",
+  "express.js",
+  "mongodb",
+  "javascript",
+  "python",
+  "SQL", // Also used, sometimes "SQL-Kenntnisse" (SQL skills) is in the description
+  "Power BI",
+  "Excel",
+
+  // --- General Terms for Fresher Roles (English) ---
+  "junior",
+  "entry level",
+  "graduate",
+  "analyst",
   
-    // --- Core Management Titles (English & German) ---
-    "project manager",
-    "program manager",
-    "product manager",
-    "product owner",
-    "manager",
-    "projektmanager",
-    "projektleiter", // German for Project Lead/Manager
-    "programmmanager",
-    "produktmanager",
-
-    // --- Leadership Titles (English & German) ---
-    "lead",
-    "team lead",
-    "tech lead",
-    "engineering manager",
-    "leiter",         // German for Leader / Head / Manager
-    "leitung",        // German for Leadership / Management
-    "teamleiter",     // German for Team Lead
-    "gruppenleiter",  // German for Group Lead
-    "technischer leiter", // German for Technical Lead / Engineering Manager
-
-    // --- Executive & Seniority Titles (English & German) ---
-    "head of",
-    "director",
-    "chief",
-    "vp",
-    "vice president",
-    "principal",
-    "senior",
-    "abteilungsleiter", // German for Head of Department
-    "bereichsleiter",   // German for Head of Division / Area
-    "direktor",
-    "geschäftsführer",  // German for Managing Director / CEO
-    "vorstand"          // German for Executive Board Member
+  // --- German General Terms for Fresher Roles ---
+  "Junior", // Used exactly like in English (e.g., "Junior Softwareentwickler")
+  "Einsteiger", // "Beginner" / "Entry Level"
+  "Berufseinsteiger", // "Career Starter" / "Person starting their career"
+  "Absolvent", // "Graduate"
+  "Datenanalyst", // "Data Analyst"
+  "Data Analyst" // Often kept in English as well
 ]
-// [
-//     // --- Roles & Titles ---
-//     "software engineer intern",
-//     "web developer intern",
-//     "full stack intern",
-//     "full-stack intern",
-//     "backend intern",
-//     "frontend intern",
-//     "react developer intern",
-//     "node.js developer intern",
-//     "javascript developer intern",
-//     "mern stack developer", // MERN is a great specific keyword
-//     "trainee software engineer",
-//     "software developer trainee",
-//     "apprentice software developer",
-//     "working student", // Very common term in Germany for student roles
-//     "werkstudent", // The German word for "working student"
-
-//     // --- Core Technologies (from your skills list) ---
-//     "react",
-//     "node.js",
-//     "express.js",
-//     "mongodb",
-//     "javascript",
-//     "python",
-
-//     // --- General Terms for Fresher Roles ---
-//     "junior",
-//     "entry level",
-//     "graduate"
-// ]
-// [
-//   "finance",
-//   "analyst",
-//   "financial analysis",
-//   "financial reporting",
-//   "portfolio analysis",
-//   "budgeting",
-//   "forecasting",
-//   "valuation",
-//   "Power BI",
-//   "Excel",
-//   "SQL",
-//   "corporate finance"
-// ]
