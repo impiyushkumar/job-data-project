@@ -1,6 +1,6 @@
-# Job Data Project — Backend (API)
+# TechJobs — Backend (API)
 
-Backend API for the **Job Data** full-stack project — a Germany-focused job search website built by aggregating job listings from the web and serving them to a frontend UI.
+Backend API for the **Job Data** full-stack project — a India-focused job search website built by aggregating job listings from the web and serving them to a frontend UI.
 
 - Frontend repo: https://github.com/impiyushkumar/frontend-project
 - Backend repo: https://github.com/impiyushkumar/job-data-project
@@ -10,7 +10,7 @@ Backend API for the **Job Data** full-stack project — a Germany-focused job se
 
 ## Project Overview
 
-**Job Data** is a job search & aggregation platform focused on **Germany-based jobs**.
+**TechJobs** is a job search & aggregation platform focused on **India-based jobs**.
 
 The core idea:
 1. Job listings are collected by **scraping public job pages** on the web (from multiple sources).
@@ -25,8 +25,8 @@ This repo contains the backend service (Node.js) that powers the job listing dat
 
 ## Features
 
-- Job data API for the frontend app
-- Germany-focused job listings (aggregated via scraping)
+- TechJobs data API for the frontend app
+- India-focused job listings (aggregated via scraping)
 - JSON REST endpoints
 - Environment-based configuration via `.env`
 - CORS support for connecting the frontend
