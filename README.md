@@ -1,4 +1,4 @@
-# TechJobs — Backend (API)
+# JobMesh — Backend (API)
 
 Backend API for the **Job Data** full-stack project — a India-focused job search website built by aggregating job listings from the web and serving them to a frontend UI.
 
@@ -10,7 +10,7 @@ Backend API for the **Job Data** full-stack project — a India-focused job sear
 
 ## Project Overview
 
-**TechJobs** is a job search & aggregation platform focused on **India-based jobs**.
+**JobMesh** is a job search & aggregation platform focused on **India-based jobs**.
 
 The core idea:
 1. Job listings are collected by **scraping public job pages** on the web (from multiple sources).
