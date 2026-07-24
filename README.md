@@ -4,7 +4,7 @@ Backend API for the **Job Data** full-stack project — a India-focused job sear
 
 - Frontend repo: https://github.com/impiyushkumar/frontend-project
 - Backend repo: https://github.com/impiyushkumar/job-data-project
-- Live (AWS): http://51.21.221.169/
+- Live (AWS): https://jobmesh.in/
 
 ---
 
